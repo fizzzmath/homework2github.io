@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*  шапка */
+.header {
+    background-color: #DB7093;
+    color: #4682B4;
+    padding: 20px 0;
+}
+
+.header-content {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* лого */
+.logo {
+    display: flex;
+    width:100px; height: 100px;
+    border-radius: 50%;
+    background: url(logotip.jpg);
+    background-size: auto 100px;
+}
+
+.logo img {
+    height: 40px;
+    margin-left: 10px;
+    float: left;
+    margin: 0;
+    position: absolute;
+}
+
+/* git */
+.site-title {
+    margin: 0;
+}
+
+.site-link a{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.site-link:hover{
+    color: #FFFFFF;
+}
+
+/* ссылки */
+.main-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-menu li {
+    margin-left: 20px;
+}
+
+.main-menu a {
+    font-size: 20px;
+    color:#FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.main-menu a:hover{
+    color: #B0C4DE;
+}
+
+/* таблица */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: solid 3px #4682B4;
+}
+
+.data-table th, .data-table td {
+    padding: 10px;
+    text-align: left;
+    border: solid 1px #333;
+}
+
+.data-table th {
+    color: #FFFFFF;
+    background-color: #4682B4;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #F0F8FF;
+}
+
+/* подвал */
+.footer {
+    background-color: #DB7093;
+    color: #FFFFFF;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+}
